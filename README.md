@@ -14,8 +14,9 @@ From the data set created in step1, there have been selected the columns in whic
 ## Step 3: Uses descriptive activity names to name the activities in the data set
 The second column of the data set from step1 contains the number of the activity. Each number correspond to a different activity.
 
-# Step 4: Appropriately labels the data set with descriptive activity names.
+## Step 4: Appropriately labels the data set with descriptive activity names.
 The second column of the data set from step1 contains the number of the activity. This column has been converted into a factor and the names of the levels of this factor has been changed by the names that appear in the activity_labels.txt file.
 
 ## Step 5: Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 The final data set has been created grouping the columns by the subject and the activity and the final data set has been saved.
+The final data set contains 180 observations and 81 variables.
